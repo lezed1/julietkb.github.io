@@ -134,7 +134,7 @@ KeyboardInputManager.prototype.restart = function (event) {
 
 KeyboardInputManager.prototype.keepPlaying = function (event) {
   event.preventDefault();
-  // this.emit("keepPlaying");
+  this.emit("keepPlaying");
   document.querySelector("#confetti-canvas").classList.add("yes");
 };
 

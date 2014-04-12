@@ -724,6 +724,6 @@ hr {
   animation: appear 200ms ease 100ms;
 }
 
-.game-won #confetti-canvas.yes {
+#confetti-canvas.yes {
   display: inline;
 }
